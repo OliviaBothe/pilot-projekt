@@ -1,0 +1,41 @@
+header {
+  display: grid;
+  place-content: center;
+}
+
+img {
+  width: 45%;
+  object-fit: cover;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+h1 {
+  font-family: "Akira Expanded", sans-serif;
+  font-size: 3rem;
+  color: #000000;
+  line-height: 1.125;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: "Akira Expanded", sans-serif;
+  font-size: 1.7rem;
+  color: #2b2b2b;
+  line-height: 1.125;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: "Libre Franklin Regular", sans-serif;
+  line-height: 1;
+  color: #0d0d0d;
+  font-size: 1rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
