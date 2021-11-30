@@ -4,9 +4,8 @@ header {
   position: sticky;
 }
 
-main {
-  margin: 1%;
-  padding: 1%;
+body {
+  background-color: #ffffff;
 }
 
 img {
@@ -14,14 +13,17 @@ img {
   object-fit: cover;
 }
 
+#first_section {
+  margin: 1%;
+  padding: 1%;
+  place-content: center;
+  display: grid;
+}
+
 .content {
   max-width: 600px;
   margin: 4rem;
   place-content: center;
-}
-
-body {
-  background-color: #ffffff;
 }
 
 h1 {
@@ -45,6 +47,19 @@ p {
   line-height: 1;
   color: #0d0d0d;
   font-size: 1rem;
+}
+
+video {
+  width: 80%;
+  height: auto;
+  display: block;
+}
+
+iframe {
+  width: 80%;
+  height: auto;
+
+  aspect-ratio: 16 / 9;
 }
 
 html {
