@@ -1,11 +1,23 @@
 header {
   display: grid;
   place-content: center;
+  position: sticky;
+}
+
+main {
+  margin: 1%;
+  padding: 1%;
 }
 
 img {
   width: 45%;
   object-fit: cover;
+}
+
+.content {
+  max-width: 600px;
+  margin: 4rem;
+  place-content: center;
 }
 
 body {
@@ -23,7 +35,7 @@ h1 {
 h2 {
   font-family: "Akira Expanded", sans-serif;
   font-size: 1.7rem;
-  color: #2b2b2b;
+  color: #000000;
   line-height: 1.125;
   margin-bottom: 10px;
 }
